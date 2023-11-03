@@ -23,6 +23,7 @@
   },
   "objectsGroups": [],
   "variables": [],
+<<<<<<< HEAD
   "instances": [
     {
       "angle": 0,
@@ -120,6 +121,10 @@
       ]
     }
   ],
+=======
+  "instances": [],
+  "objects": [],
+>>>>>>> e7b50c2515e3dbb0bcf197631c166f96276a62ca
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
