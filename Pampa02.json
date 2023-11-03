@@ -63,19 +63,30 @@
     "currentPlatform": "GDevelop JS platform"
   },
   "resources": {
-    "resources": [],
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cubo1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "cubo1",
+        "smoothed": true,
+        "userAdded": true
+      }
+    ],
     "resourceFolders": []
   },
   "objects": [],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT"
-  },
   "objectsGroups": [],
   "variables": [],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/untitled-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/escena02"
     }
   ],
   "externalEvents": [],
