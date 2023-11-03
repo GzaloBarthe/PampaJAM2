@@ -81,13 +81,14 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "cubo1",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
       "behaviors": [
         {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 600,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -97,9 +98,7 @@
           "ignoreDefaultControls": true,
           "maxSpeed": 600,
           "movementAngleOffset": 0,
-          "name": "TopDownMovement",
           "rotateObject": false,
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "viewpoint": "TopDown"
         }
       ],
@@ -156,6 +155,14 @@
       ]
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "cubo1"
+      }
+    ]
+  },
   "objectsGroups": [],
   "variables": [],
   "layouts": [
