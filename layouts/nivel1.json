@@ -92,7 +92,7 @@
       "depth": 32,
       "height": 95,
       "layer": "Pausa",
-      "name": "GreenButton",
+      "name": "SALIR",
       "persistentUuid": "0894d3f5-13a6-4fb6-b304-8a16bca1127e",
       "width": 256,
       "x": 902,
@@ -123,11 +123,11 @@
       "customSize": false,
       "height": 0,
       "layer": "Pausa",
-      "name": "Pausamusica2",
+      "name": "Pausa",
       "persistentUuid": "4332b6d8-0401-4c56-8036-970952f356ad",
       "width": 0,
       "x": 305,
-      "y": 119,
+      "y": 50,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -213,6 +213,67 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Pausa",
+      "name": "Reiniciar",
+      "persistentUuid": "549e9589-149f-43fb-8c85-92878827eaa3",
+      "width": 0,
+      "x": 512,
+      "y": 310,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 741,
+      "layer": "Perdiste",
+      "name": "perdiste",
+      "persistentUuid": "487b109a-0ce3-4666-91bd-8b027fb7598f",
+      "width": 1296,
+      "x": -11,
+      "y": -8,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Perdiste",
+      "name": "game_over",
+      "persistentUuid": "dcaad1aa-ae58-43d3-83c9-fe0cf54aae5a",
+      "width": 0,
+      "x": 132,
+      "y": 50,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Perdiste",
+      "name": "Reiniciar",
+      "persistentUuid": "b3fe8749-eb74-4319-990a-e30c92fe6cbd",
+      "width": 0,
+      "x": 510,
+      "y": 403,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [],
@@ -242,6 +303,15 @@
           "parameters": [
             "",
             "\"Pausa\""
+          ]
+        },
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Perdiste\""
           ]
         }
       ]
@@ -437,11 +507,12 @@
           "actions": [
             {
               "type": {
-                "value": "PauseSoundCanal"
+                "value": "ModGlobalVolume"
               },
               "parameters": [
                 "",
-                "canal1"
+                "=",
+                "100"
               ]
             },
             {
@@ -474,11 +545,12 @@
           "actions": [
             {
               "type": {
-                "value": "RePlaySoundCanal"
+                "value": "ModGlobalVolume"
               },
               "parameters": [
                 "",
-                "canal1"
+                "=",
+                "0"
               ]
             },
             {
@@ -503,7 +575,7 @@
                 "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
               },
               "parameters": [
-                "GreenButton",
+                "SALIR",
                 ""
               ]
             },
@@ -534,6 +606,49 @@
               "parameters": [
                 "",
                 "\"MenuInicio\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "Reiniciar",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "select_004.ogg",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"Nivel1\""
               ]
             }
           ]
@@ -965,7 +1080,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "derrota",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -988,12 +1102,31 @@
           "actions": [
             {
               "type": {
-                "value": "Scene"
+                "value": "ChangeTimeScale"
               },
               "parameters": [
                 "",
-                "\"Perdiste\"",
-                ""
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "perdiste",
+                "Opacity",
+                "=",
+                "80"
+              ]
+            },
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"Perdiste\""
               ]
             }
           ]
@@ -1073,6 +1206,38 @@
       "isLightingLayer": false,
       "isLocked": false,
       "name": "Pausa",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Perdiste",
       "renderingType": "",
       "visibility": true,
       "cameras": [],

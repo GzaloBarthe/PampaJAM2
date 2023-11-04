@@ -225,7 +225,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite3.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite3.png\"}",
         "name": "NewSprite3",
         "smoothed": true,
         "userAdded": true
@@ -273,6 +273,28 @@
         "kind": "image",
         "metadata": "",
         "name": "bola_nro_no_sombra_si2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Retry.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Retry.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Casual Buttons Pack/cc0cb4e9134b2f362d8145f10a42d356d3f10bb6e432187d81c25f164099812c_Retry.png",
+          "name": "Retry.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pausa.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/pausa.png\"}",
+        "name": "pausa",
         "smoothed": true,
         "userAdded": true
       }
@@ -468,7 +490,7 @@
         }
       ],
       "behaviors": [],
-      "string": "MUSICA",
+      "string": "SONIDO",
       "font": "Super Milk.ttf",
       "textAlignment": "left",
       "characterSize": 40,
@@ -480,7 +502,7 @@
     },
     {
       "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
-      "name": "GreenButton",
+      "name": "SALIR",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
@@ -552,7 +574,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "pausa",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -562,7 +584,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite3",
+                  "image": "pausa",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -606,7 +628,7 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "Pausamusica2",
+      "name": "Pausa",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -894,6 +916,165 @@
         "g": 0,
         "r": 0
       }
+    },
+    {
+      "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
+      "name": "Reiniciar",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 10,
+        "BottomPadding": 32,
+        "TopPadding": 16,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Green Button_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Idle": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Green Button_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Label": {
+          "bold": true,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "REINICIAR",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 29,
+            "g": 99,
+            "r": 62
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Green Button_Pressed.png",
+          "tiled": true,
+          "topMargin": 32,
+          "width": 256
+        }
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "perdiste",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "game_over",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "Effect",
+          "doubleParameters": {
+            "distance": 15,
+            "innerStrength": 1,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "string": "PERDISTE",
+      "font": "Super Milk.ttf",
+      "textAlignment": "left",
+      "characterSize": 200,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -909,13 +1090,16 @@
         "objectName": "Pausamusica"
       },
       {
-        "objectName": "Pausamusica2"
+        "objectName": "Pausa"
       },
       {
-        "objectName": "GreenButton"
+        "objectName": "SALIR"
       },
       {
         "objectName": "pausa"
+      },
+      {
+        "objectName": "perdiste"
       },
       {
         "objectName": "cover"
@@ -934,6 +1118,12 @@
       },
       {
         "objectName": "PlayerValue"
+      },
+      {
+        "objectName": "Reiniciar"
+      },
+      {
+        "objectName": "game_over"
       }
     ]
   },
