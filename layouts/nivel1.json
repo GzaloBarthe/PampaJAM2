@@ -29,7 +29,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "cubo1",
+      "name": "jugador",
       "persistentUuid": "4ff9c19d-2551-4583-b521-e34f6128a10b",
       "width": 0,
       "x": 261,
@@ -94,7 +94,7 @@
       "layer": "Pausa",
       "name": "GreenButton",
       "persistentUuid": "0894d3f5-13a6-4fb6-b304-8a16bca1127e",
-      "width": 234,
+      "width": 256,
       "x": 902,
       "y": 500,
       "zOrder": 10,
@@ -132,78 +132,92 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
-    }
-  ],
-  "objects": [
+    },
     {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "cover",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "recolectable",
+      "persistentUuid": "82553c90-612f-493d-b2ea-5c357d993970",
+      "width": 0,
+      "x": 794,
+      "y": 109,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
         {
-          "name": "NewSprite",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite2",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 64
-                      },
-                      {
-                        "x": 0,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
+          "folded": true,
+          "name": "aporte",
+          "type": "number",
+          "value": 15
         }
       ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "recolectable",
+      "persistentUuid": "d88834ed-b185-4ad2-aad8-c8796e589ef1",
+      "width": 0,
+      "x": 1115,
+      "y": 592,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "aporte",
+          "type": "number",
+          "value": -10
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "recolectable",
+      "persistentUuid": "ca80db96-92ab-4f31-bd78-7c66e79741d8",
+      "width": 0,
+      "x": 497,
+      "y": 618,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "aporte",
+          "type": "number",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Objetivo",
+      "persistentUuid": "f63ecd5e-938d-43fa-b9ea-3f34aaf513e9",
+      "width": 0,
+      "x": 40,
+      "y": 42,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
+  "objects": [],
   "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "cover"
-      }
-    ]
+    "folderName": "__ROOT"
   },
   "events": [
     {
@@ -229,17 +243,6 @@
             "",
             "\"Pausa\""
           ]
-        },
-        {
-          "type": {
-            "value": "OpacityCapability::OpacityBehavior::SetValue"
-          },
-          "parameters": [
-            "pausa",
-            "Opacity",
-            "=",
-            "50"
-          ]
         }
       ]
     },
@@ -248,6 +251,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Menú pausa",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -273,6 +277,17 @@
                 "Pausa",
                 "=",
                 "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "pausa",
+                "Opacity",
+                "=",
+                "50"
               ]
             }
           ]
@@ -428,6 +443,18 @@
                 "",
                 "canal1"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "switch_007.ogg",
+                "",
+                "60",
+                "1"
+              ]
             }
           ]
         },
@@ -453,6 +480,61 @@
                 "",
                 "canal1"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "switch_007.ogg",
+                "",
+                "60",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "GreenButton",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "select_004.ogg",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"MenuInicio\""
+              ]
             }
           ]
         }
@@ -464,6 +546,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Movimiento ADSW",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -487,7 +570,7 @@
                 "value": "TopDownMovementBehavior::SimulateLeftKey"
               },
               "parameters": [
-                "cubo1",
+                "jugador",
                 "TopDownMovement"
               ]
             }
@@ -512,7 +595,7 @@
                 "value": "TopDownMovementBehavior::SimulateRightKey"
               },
               "parameters": [
-                "cubo1",
+                "jugador",
                 "TopDownMovement"
               ]
             }
@@ -537,7 +620,7 @@
                 "value": "TopDownMovementBehavior::SimulateDownKey"
               },
               "parameters": [
-                "cubo1",
+                "jugador",
                 "TopDownMovement"
               ]
             }
@@ -562,8 +645,355 @@
                 "value": "TopDownMovementBehavior::SimulateUpKey"
               },
               "parameters": [
-                "cubo1",
+                "jugador",
                 "TopDownMovement"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "acciones al iniciar",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "jugador",
+                "SumaTotal",
+                "=",
+                "6"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "jugador",
+                "Objetivo",
+                "=",
+                "30"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Objetivo",
+                "=",
+                "\"Alcanza: \"+ToString(jugador.Variable(Objetivo))"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "jugador",
+                "Animation",
+                "=",
+                "\"cirulo\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "recolectable",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "AporteObjeto",
+                    "recolectable.CenterX()",
+                    "recolectable.CenterY()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "AporteObjeto",
+                    "=",
+                    "ToString(recolectable.Variable(aporte))"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "PlayerValue",
+                "jugador.CenterX()",
+                "jugador.BoundingBoxCenterY()",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "variable texto del Jugador",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "PlayerValue",
+                "=",
+                "jugador.CenterX()",
+                "=",
+                "jugador.CenterY()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "PlayerValue",
+                "=",
+                "ToString(jugador.Variable(SumaTotal))"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "colision con recolectable",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "jugador",
+                "recolectable",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "jugador",
+                "Resizable",
+                "jugador.Width() + recolectable.Variable(aporte)",
+                "jugador.Height() + recolectable.Variable(aporte)"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "recolectable",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "jugador",
+                "SumaTotal",
+                "=",
+                "jugador.Variable(SumaTotal)+recolectable.Variable(aporte)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "jugador",
+                "AporteObjeto",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "AporteObjeto",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "victoria",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "jugador",
+                "SumaTotal",
+                "=",
+                "jugador.Variable(Objetivo)"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Nivel2\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "derrota",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "jugador",
+                "SumaTotal",
+                "<=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Perdiste\"",
+                ""
               ]
             }
           ]
