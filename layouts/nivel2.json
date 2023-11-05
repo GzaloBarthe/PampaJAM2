@@ -252,8 +252,8 @@
       "name": "game_over",
       "persistentUuid": "c82c88b5-c2d9-48e0-9ed2-b9e8414401e1",
       "width": 0,
-      "x": 132,
-      "y": 50,
+      "x": 80,
+      "y": 166,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -434,11 +434,67 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 207,
+      "layer": "",
+      "name": "txt",
+      "persistentUuid": "4d2d16d5-2304-4228-a9bf-0e31247e0ab5",
+      "width": 760,
+      "x": 291,
+      "y": 229,
+      "zOrder": 51,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 138,
+      "layer": "",
+      "name": "txtobjetivo",
+      "persistentUuid": "94327358-cef3-489f-8a94-f8c9005816dc",
+      "width": 660,
+      "x": 354,
+      "y": 254,
+      "zOrder": 52,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
-  "objects": [],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "name": "txtobjetivo",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "[b][/b]\nPara avanzar a la siguiente etapa, reúnete con tus compañeros,\nasegurate de que [outline=yellow]todos[/outline] te sigan\nSi no puedes, presiona [b]ESC[/b] y reinicia el nivel",
+        "opacity": 255,
+        "fontSize": 25,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Super Milk.ttf",
+        "align": "left",
+        "wordWrap": true
+      }
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "txtobjetivo"
+      }
+    ]
   },
   "events": [
     {
@@ -475,6 +531,64 @@
           ]
         }
       ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Objetivo",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnyKeyPressed"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "txtobjetivo",
+                "Opacity",
+                "-",
+                "20"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "txt",
+                "Opacity",
+                "-",
+                "20"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
     },
     {
       "colorB": 228,
@@ -1722,6 +1836,10 @@
     {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flash",
+      "type": "Flash::Flash"
     },
     {
       "name": "Flippable",

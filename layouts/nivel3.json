@@ -284,21 +284,6 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "Objetivo",
-      "persistentUuid": "d4d591ad-60e1-4213-a601-216424363c9f",
-      "width": 0,
-      "x": 59,
-      "y": 46,
-      "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
       "name": "candado",
       "persistentUuid": "5077f763-89f2-4b65-93ed-8cba87727662",
       "width": 0,
@@ -333,8 +318,8 @@
       "name": "game_over",
       "persistentUuid": "a97c4d3a-5845-4806-a27e-8931cf1463fc",
       "width": 0,
-      "x": 132,
-      "y": 50,
+      "x": 80,
+      "y": 166,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -639,6 +624,38 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 277,
+      "layer": "",
+      "name": "txt",
+      "persistentUuid": "fe054ebc-f621-4474-ac3b-06da1535bf62",
+      "width": 823,
+      "x": 221,
+      "y": 217,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 202,
+      "layer": "",
+      "name": "txtobjetivo",
+      "persistentUuid": "f1f98504-875b-4270-96f2-440d739478b1",
+      "width": 726,
+      "x": 303,
+      "y": 243,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -762,6 +779,24 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "txtobjetivo",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "[b][/b]\nEn este nivel deberás sumar [outline=yellow]17[/outline] puntos para desbloquear el primer\ncandado, luego reunete con tus compañeros para pasar a la próxima\netapa, asegurate de que [outline=yellow]todos[/outline] te sigan\nSi no puedes, apreta [b]ESC[/b] y reinicia el nivel",
+        "opacity": 255,
+        "fontSize": 25,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Super Milk.ttf",
+        "align": "left",
+        "wordWrap": true
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -769,6 +804,9 @@
     "children": [
       {
         "objectName": "puertaIntermedia"
+      },
+      {
+        "objectName": "txtobjetivo"
       }
     ]
   },
@@ -807,6 +845,64 @@
           ]
         }
       ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Objetivo",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnyKeyPressed"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "txtobjetivo",
+                "Opacity",
+                "-",
+                "20"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "txt",
+                "Opacity",
+                "-",
+                "20"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
     },
     {
       "colorB": 228,
@@ -1426,7 +1522,7 @@
                 "jugador",
                 "Objetivo2",
                 "=",
-                "2"
+                "3"
               ]
             },
             {
@@ -1615,7 +1711,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "variable texto del Jugador",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1631,9 +1726,9 @@
               "parameters": [
                 "PlayerValue",
                 "=",
-                "jugador.CenterX()",
+                "jugador.CenterX()-8",
                 "=",
-                "jugador.CenterY()"
+                "jugador.CenterY()-65"
               ]
             }
           ]
@@ -1815,6 +1910,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "puertas intermedias",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2255,15 +2351,37 @@
                 "\"Perdiste\""
               ]
             }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "MUERTE_SFX.ogg",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                }
+              ]
+            }
           ]
         }
       ],
       "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [
@@ -2415,6 +2533,10 @@
     {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flash",
+      "type": "Flash::Flash"
     },
     {
       "name": "Flippable",

@@ -1496,6 +1496,65 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "White Decorated Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "White Decorated Button_Hovered.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "MOD-United Now (Canción Principal).ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "MOD-United Now (Canción Principal).ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "MOD2-United Now (Canción Principal).ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "MOD2-United Now (Canción Principal).ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "MUERTE_SFX.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "MUERTE_SFX.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "You_Won_mas_corta_aun.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "You_Won_mas_corta_aun.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "You_Won_cortita.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "You_Won_cortita.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1536,9 +1595,9 @@
           "FlashDuration": 0
         },
         {
-          "acceleration": 400,
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "acceleration": 400,
           "deceleration": 100000,
           "allowDiagonals": false,
           "maxSpeed": 400,
@@ -2582,7 +2641,7 @@
     },
     {
       "assetStoreId": "",
-      "bold": false,
+      "bold": true,
       "italic": false,
       "name": "PlayerValue",
       "smoothed": true,
@@ -2750,10 +2809,10 @@
         }
       ],
       "behaviors": [],
-      "string": "PERDISTE",
+      "string": "¡VOLVE A INTENTARLO!",
       "font": "Super Milk.ttf",
       "textAlignment": "left",
-      "characterSize": 200,
+      "characterSize": 95,
       "color": {
         "b": 0,
         "g": 0,
@@ -3286,6 +3345,66 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "txt",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "White Decorated Button_Hovered.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 192,
+                        "y": 0
+                      },
+                      {
+                        "x": 192,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3356,6 +3475,9 @@
       },
       {
         "objectName": "piso2"
+      },
+      {
+        "objectName": "txt"
       }
     ]
   },

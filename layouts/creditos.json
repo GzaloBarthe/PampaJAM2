@@ -134,6 +134,21 @@
       "actions": [
         {
           "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "You_Won_cortita.ogg"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
             "value": "OpacityCapability::OpacityBehavior::SetValue"
           },
           "parameters": [
@@ -141,6 +156,31 @@
             "Opacity",
             "-",
             "1.5"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "You_Won_cortita.ogg",
+            "",
+            "85",
+            "1"
           ]
         }
       ]
@@ -199,6 +239,10 @@
     {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flash",
+      "type": "Flash::Flash"
     },
     {
       "name": "Flippable",

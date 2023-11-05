@@ -32,8 +32,8 @@
       "name": "jugador",
       "persistentUuid": "4ff9c19d-2551-4583-b521-e34f6128a10b",
       "width": 0,
-      "x": 261,
-      "y": 347,
+      "x": 104,
+      "y": 528,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -238,8 +238,8 @@
       "name": "game_over",
       "persistentUuid": "dcaad1aa-ae58-43d3-83c9-fe0cf54aae5a",
       "width": 0,
-      "x": 132,
-      "y": 50,
+      "x": 80,
+      "y": 166,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -371,11 +371,67 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 298,
+      "layer": "",
+      "name": "txt",
+      "persistentUuid": "8f03b45a-7299-438e-96fa-46a638b5eac5",
+      "width": 1009,
+      "x": 145,
+      "y": 179,
+      "zOrder": 102,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 183,
+      "layer": "",
+      "name": "txtobjetivo",
+      "persistentUuid": "f1a9ea3f-7e30-4764-93d2-d788001f6ab0",
+      "width": 892,
+      "x": 236,
+      "y": 226,
+      "zOrder": 104,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
-  "objects": [],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "name": "txtobjetivo",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "[b]¡Hola![/b]\nEl objetivo es sumar para poder desbloquear el próximo nivel\nasegurate de sumar un total de [outline=yellow]30[/outline] puntos para continuar\nSi no puedes, presiona [b]ESC[/b] y reinicia el nivel\nTe puedes mover con las teclas [spacing=12]WASD[/spacing]",
+        "opacity": 255,
+        "fontSize": 25,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Super Milk.ttf",
+        "align": "left",
+        "wordWrap": true
+      }
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "txtobjetivo"
+      }
+    ]
   },
   "events": [
     {
@@ -412,6 +468,64 @@
           ]
         }
       ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Objetivo",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnyKeyPressed"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "txtobjetivo",
+                "Opacity",
+                "-",
+                "20"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "txt",
+                "Opacity",
+                "-",
+                "20"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
     },
     {
       "colorB": 228,
@@ -983,7 +1097,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "acciones al iniciar",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1110,7 +1223,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "variable texto del Jugador",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1126,9 +1238,9 @@
               "parameters": [
                 "PlayerValue",
                 "=",
-                "jugador.CenterX()",
+                "jugador.CenterX()-8",
                 "=",
-                "jugador.CenterY()"
+                "jugador.CenterY()-65"
               ]
             }
           ]
@@ -1459,6 +1571,33 @@
                 "\"Perdiste\""
               ]
             }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "MUERTE_SFX.ogg",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                }
+              ]
+            }
           ]
         }
       ],
@@ -1744,6 +1883,10 @@
     {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flash",
+      "type": "Flash::Flash"
     },
     {
       "name": "Flippable",

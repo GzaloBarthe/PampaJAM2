@@ -135,8 +135,8 @@
       "name": "game_over",
       "persistentUuid": "a97c4d3a-5845-4806-a27e-8931cf1463fc",
       "width": 0,
-      "x": 132,
-      "y": 50,
+      "x": 80,
+      "y": 166,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -948,6 +948,38 @@
       "x": 234,
       "y": 438,
       "zOrder": 1027,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 198,
+      "layer": "",
+      "name": "txtobjetivo",
+      "persistentUuid": "fa7dc5f3-53ef-461d-a6ee-43adecfaba35",
+      "width": 773,
+      "x": 282,
+      "y": 236,
+      "zOrder": 1030,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 353,
+      "layer": "",
+      "name": "txt",
+      "persistentUuid": "10b06e96-30a2-4477-9cbb-96d6946ce7a0",
+      "width": 928,
+      "x": 184,
+      "y": 200,
+      "zOrder": 1029,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1810,6 +1842,24 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "txtobjetivo",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "[shadow=red]¡Cuidado con Boss![/shadow]  En este nivel debes juntar [outline=yellow]30[/outline] puntos\npara poder rescatar a tus compañeros. ¡Boss te enviara enemigos que te \nquitaran puntos!\nJuntate con tus amigos y podrán hacerle frente al enemigo\nSi no puedes, apreta [b]ESC[/b] y reinicia el nivel",
+        "opacity": 255,
+        "fontSize": 25,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Super Milk.ttf",
+        "align": "left",
+        "wordWrap": true
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1835,6 +1885,9 @@
       },
       {
         "objectName": "recoboss"
+      },
+      {
+        "objectName": "txtobjetivo"
       }
     ]
   },
@@ -2002,6 +2055,64 @@
           ]
         }
       ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Objetivo",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnyKeyPressed"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "txtobjetivo",
+                "Opacity",
+                "-",
+                "20"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "txt",
+                "Opacity",
+                "-",
+                "20"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
     },
     {
       "colorB": 228,
@@ -2908,9 +3019,9 @@
               "parameters": [
                 "PlayerValue",
                 "=",
-                "jugador.CenterX()",
+                "jugador.CenterX()-8",
                 "=",
-                "jugador.CenterY()"
+                "jugador.CenterY()-65"
               ]
             }
           ]
@@ -3537,6 +3648,33 @@
                 "\"Perdiste\""
               ]
             }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "MUERTE_SFX.ogg",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                }
+              ]
+            }
           ]
         }
       ],
@@ -4090,7 +4228,7 @@
       "isLocked": false,
       "name": "Perdiste",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
@@ -4122,7 +4260,7 @@
       "isLocked": false,
       "name": "Pausa",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
@@ -4154,7 +4292,7 @@
       "isLocked": false,
       "name": "transicion",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
