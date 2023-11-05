@@ -16,7 +16,7 @@
     "pixelsRounding": false,
     "projectUuid": "e75b1442-ac31-43af-a2e5-01fcb37d31bb",
     "scaleMode": "linear",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "",
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
@@ -297,6 +297,288 @@
         "name": "pausa",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile_01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tile_01.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tile_01.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile_02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tile_02.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tile_02.png2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "candado_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "candado_01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "candado_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "candado_02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "question_003.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "question_003.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "snap_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "snap_02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "snap_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "snap_03.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "snap_04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "snap_04.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "snap_05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "snap_05.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "select_002.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "select_002.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fx_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fx_01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fx_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fx_02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fx_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fx_03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fx_04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fx_04.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fx_05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fx_05.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fx_06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fx_06.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fx_07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fx_07.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fx_08.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fx_08.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "snap_06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "snap_06.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "snap_07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "snap_07.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "snap_08.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "snap_08.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "snap_09.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "snap_09.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "snap_010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "snap_010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "snap_011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "snap_011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/snap_011.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "snap_011",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/snap_012.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "snap_012",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/snap_013.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "snap_013",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/snap_014.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "snap_014",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "drop_004.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "drop_004.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -324,9 +606,9 @@
       "effects": [],
       "behaviors": [
         {
-          "deceleration": 100000,
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "deceleration": 100000,
           "allowDiagonals": false,
           "maxSpeed": 400,
           "acceleration": 600,
@@ -392,7 +674,7 @@
     },
     {
       "assetStoreId": "99f912de1cf5033ae934a8453c2f98a712955bcdb5ea1b1fda2fe2aa616de4a9",
-      "name": "SmallGreenPlasticRoundSwitch",
+      "name": "switch_sonido",
       "type": "SpriteToggleSwitch::SpriteToggleSwitch",
       "variables": [],
       "effects": [],
@@ -870,9 +1152,9 @@
       "textAlignment": "left",
       "characterSize": 60,
       "color": {
-        "b": 226,
-        "g": 144,
-        "r": 74
+        "b": 0,
+        "g": 0,
+        "r": 0
       }
     },
     {
@@ -1075,6 +1357,342 @@
         "g": 0,
         "r": 0
       }
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "paredes",
+      "texture": "tile_02.png2",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Candando",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "abierto",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "cerrado",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "candado_01.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 87,
+                        "y": 13.5
+                      },
+                      {
+                        "x": 160,
+                        "y": 14
+                      },
+                      {
+                        "x": 160,
+                        "y": 186
+                      },
+                      {
+                        "x": 85.5,
+                        "y": 187.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "abierto",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "candado_02.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 87,
+                        "y": 13.5
+                      },
+                      {
+                        "x": 160,
+                        "y": 14
+                      },
+                      {
+                        "x": 160,
+                        "y": 186
+                      },
+                      {
+                        "x": 85.5,
+                        "y": 187.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "destroy",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.11,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "fx_06.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 25,
+                        "y": 19
+                      },
+                      {
+                        "x": 39,
+                        "y": 19
+                      },
+                      {
+                        "x": 39,
+                        "y": 35
+                      },
+                      {
+                        "x": 25,
+                        "y": 35
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "fx_07.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 25,
+                        "y": 19
+                      },
+                      {
+                        "x": 39,
+                        "y": 19
+                      },
+                      {
+                        "x": 39,
+                        "y": 35
+                      },
+                      {
+                        "x": 25,
+                        "y": 35
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "fx_08.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 25,
+                        "y": 19
+                      },
+                      {
+                        "x": 39,
+                        "y": 19
+                      },
+                      {
+                        "x": 39,
+                        "y": 35
+                      },
+                      {
+                        "x": 25,
+                        "y": 35
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "sticky3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "pegado",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "distancia",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": false,
+          "IsDestroyedWithParent": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bola_nro_no_sombra_si2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 3
+                      },
+                      {
+                        "x": 58,
+                        "y": 3
+                      },
+                      {
+                        "x": 58,
+                        "y": 58
+                      },
+                      {
+                        "x": 2,
+                        "y": 58
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1084,7 +1702,7 @@
         "objectName": "jugador"
       },
       {
-        "objectName": "SmallGreenPlasticRoundSwitch"
+        "objectName": "switch_sonido"
       },
       {
         "objectName": "Pausamusica"
@@ -1124,6 +1742,18 @@
       },
       {
         "objectName": "game_over"
+      },
+      {
+        "objectName": "paredes"
+      },
+      {
+        "objectName": "Candando"
+      },
+      {
+        "objectName": "destroy"
+      },
+      {
+        "objectName": "sticky3"
       }
     ]
   },
@@ -1148,6 +1778,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/nivel2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/nivel3"
     }
   ],
   "externalEvents": [],

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.546875,
+    "zoomFactor": 0.7130377630690402,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -32,24 +32,9 @@
       "name": "jugador",
       "persistentUuid": "3ed1f7bb-2d21-4927-859d-75fb4937f630",
       "width": 0,
-      "x": 380,
-      "y": 360,
+      "x": 120,
+      "y": 151,
       "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Objetivo",
-      "persistentUuid": "48da7917-b057-4585-a511-6ad174a70376",
-      "width": 0,
-      "x": 40,
-      "y": 42,
-      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -84,8 +69,8 @@
       "name": "sticky",
       "persistentUuid": "d5b0e0c6-19c2-4ce5-931e-5e9e3f42044d",
       "width": 0,
-      "x": 613,
-      "y": 188,
+      "x": 1023,
+      "y": 453,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -188,7 +173,7 @@
       "depth": 32,
       "height": 85,
       "layer": "Pausa",
-      "name": "SmallGreenPlasticRoundSwitch",
+      "name": "switch_sonido",
       "persistentUuid": "caf29ee6-5865-4f68-a541-e19ad979548f",
       "width": 216,
       "x": 141,
@@ -233,7 +218,7 @@
       "customSize": true,
       "depth": 1,
       "height": 768,
-      "layer": "perdiste",
+      "layer": "Perdiste",
       "name": "perdiste",
       "persistentUuid": "8420b450-83e4-4903-9130-a6aaf9f8a922",
       "width": 1306,
@@ -248,7 +233,7 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "perdiste",
+      "layer": "Perdiste",
       "name": "Reiniciar",
       "persistentUuid": "db6a6252-2153-4456-8781-2a1d03acadee",
       "width": 0,
@@ -263,7 +248,7 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "perdiste",
+      "layer": "Perdiste",
       "name": "game_over",
       "persistentUuid": "c82c88b5-c2d9-48e0-9ed2-b9e8414401e1",
       "width": 0,
@@ -273,48 +258,191 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 721,
+      "layer": "",
+      "name": "paredes",
+      "persistentUuid": "30480cae-4b27-424e-b5d7-47c7fe36f512",
+      "width": 51,
+      "x": 0,
+      "y": 1,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 51,
+      "layer": "",
+      "name": "paredes",
+      "persistentUuid": "bee0ce7d-6e0d-4af9-b857-efd265ae4f5d",
+      "width": 1181,
+      "x": 50,
+      "y": -2,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 151,
+      "layer": "",
+      "name": "paredes",
+      "persistentUuid": "cc013c9d-def9-4f7f-baba-e181d5f115cf",
+      "width": 51,
+      "x": 1228,
+      "y": -1,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 496,
+      "layer": "",
+      "name": "paredes",
+      "persistentUuid": "0073ad8e-33a3-4303-a2c8-860477fa8fa4",
+      "width": 50,
+      "x": 1229,
+      "y": 224,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 52,
+      "layer": "",
+      "name": "paredes",
+      "persistentUuid": "cbb2348c-202b-4705-be26-77d22f64df02",
+      "width": 1183,
+      "x": 47,
+      "y": 670,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 50,
+      "layer": "",
+      "name": "paredes",
+      "persistentUuid": "fa3a3131-510e-44d5-ad17-ed20cc34d5b3",
+      "width": 453,
+      "x": 779,
+      "y": 223,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 50,
+      "layer": "",
+      "name": "paredes",
+      "persistentUuid": "29d6320b-ab18-4769-8e4f-fd55cefcc65b",
+      "width": 451,
+      "x": 28,
+      "y": 248,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 50,
+      "layer": "",
+      "name": "paredes",
+      "persistentUuid": "1912beba-7f3c-4902-8b5d-4d26509df044",
+      "width": 451,
+      "x": 417,
+      "y": 249,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 50,
+      "layer": "",
+      "name": "paredes",
+      "persistentUuid": "3a503fb5-92e1-4d73-bc61-587fb9202c40",
+      "width": 255,
+      "x": 267,
+      "y": 517,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 159,
+      "layer": "",
+      "name": "Candando",
+      "persistentUuid": "2c3c8df3-38c8-448c-b061-a03307bc33b9",
+      "width": 158,
+      "x": 1131,
+      "y": 82,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "sticky3",
+      "name": "unir",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [
-        {
-          "name": "pegado",
-          "type": "boolean",
-          "value": false
-        },
-        {
-          "name": "distancia",
-          "type": "number",
-          "value": 0
-        }
-      ],
+      "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "Sticker",
-          "type": "Sticker::Sticker",
-          "OnlyFollowPosition": false,
-          "IsDestroyedWithParent": false
-        }
-      ],
+      "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "snap_011",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "bola_nro_no_sombra_si2.png",
+                  "image": "snap_011",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -330,20 +458,128 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 2,
-                        "y": 3
+                        "x": 3,
+                        "y": 1
                       },
                       {
-                        "x": 58,
-                        "y": 3
+                        "x": 54,
+                        "y": 1
                       },
                       {
-                        "x": 58,
-                        "y": 58
+                        "x": 54,
+                        "y": 55
                       },
                       {
-                        "x": 2,
-                        "y": 58
+                        "x": 3,
+                        "y": 55
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "snap_012",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 1
+                      },
+                      {
+                        "x": 54,
+                        "y": 1
+                      },
+                      {
+                        "x": 54,
+                        "y": 55
+                      },
+                      {
+                        "x": 3,
+                        "y": 55
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "snap_013",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 1
+                      },
+                      {
+                        "x": 54,
+                        "y": 1
+                      },
+                      {
+                        "x": 54,
+                        "y": 55
+                      },
+                      {
+                        "x": 3,
+                        "y": 55
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "snap_014",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 1
+                      },
+                      {
+                        "x": 54,
+                        "y": 1
+                      },
+                      {
+                        "x": 54,
+                        "y": 55
+                      },
+                      {
+                        "x": 3,
+                        "y": 55
                       }
                     ]
                   ]
@@ -359,7 +595,7 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "sticky3"
+        "objectName": "unir"
       }
     ]
   },
@@ -582,7 +818,7 @@
                 "value": "SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenChecked"
               },
               "parameters": [
-                "SmallGreenPlasticRoundSwitch",
+                "switch_sonido",
                 ""
               ]
             }
@@ -620,7 +856,7 @@
                 "value": "SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenUnchecked"
               },
               "parameters": [
-                "SmallGreenPlasticRoundSwitch",
+                "switch_sonido",
                 ""
               ]
             }
@@ -863,6 +1099,7 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -894,7 +1131,7 @@
                 "jugador",
                 "Objetivo",
                 "=",
-                "6"
+                "3"
               ]
             },
             {
@@ -910,6 +1147,7 @@
           ],
           "events": [
             {
+              "disabled": true,
               "type": "BuiltinCommonInstructions::ForEach",
               "object": "recolectable",
               "conditions": [],
@@ -939,6 +1177,7 @@
               ]
             },
             {
+              "disabled": true,
               "type": "BuiltinCommonInstructions::ForEach",
               "object": "sticky",
               "conditions": [],
@@ -968,78 +1207,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "PlayerValue",
-                "jugador.CenterX()",
-                "jugador.BoundingBoxCenterY()",
-                ""
-              ]
-            }
-          ]
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "folded": true,
-      "name": "variable texto del Jugador",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "PlayerValue",
-                "=",
-                "jugador.CenterX()",
-                "=",
-                "jugador.CenterY()"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "PlayerValue",
-                "=",
-                "ToString(jugador.Variable(SumaTotal))"
-              ]
-            }
-          ]
         }
       ],
       "parameters": []
@@ -1055,6 +1222,7 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1068,6 +1236,12 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -1078,6 +1252,18 @@
               "parameters": [
                 "sticky",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "drop_004.ogg",
+                "",
+                "60",
+                "1"
               ]
             }
           ],
@@ -1124,102 +1310,10 @@
                     "jugador",
                     "SumaTotal",
                     "+",
-                    "sticky.Variable(aporte)"
+                    "1"
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "jugador",
-                "AporteObjeto",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "AporteObjeto",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "jugador",
-                "SumaTotal",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "sticky3",
-                "pegado",
-                "True"
-              ]
-            }
-          ]
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "sticky3",
-                "pegado",
-                "True"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "MettreAutour"
-              },
-              "parameters": [
-                "sticky3",
-                "jugador",
-                "50",
-                "jugador.Variable(SumaTotal)*15"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
             }
           ]
         }
@@ -1231,7 +1325,154 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "name": "derrota",
+      "folded": true,
+      "name": "Candado",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Candando",
+                "abierto",
+                "False"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Candando",
+                "abierto",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Candando",
+                "Animation",
+                "=",
+                "\"cerrado\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Candando",
+                "abierto",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "question_003.ogg",
+                "no",
+                "60",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Candando",
+                "Animation",
+                "=",
+                "\"abierto\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Coliciones",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "jugador",
+                "paredes",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "victoria",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
@@ -1245,50 +1486,105 @@
               "parameters": [
                 "jugador",
                 "SumaTotal",
-                "<=",
-                "0"
+                "=",
+                "jugador.Variable(Objetivo)"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "ChangeTimeScale"
+                "value": "SetObjectVariableAsBoolean"
               },
               "parameters": [
-                "",
-                "0"
+                "Candando",
+                "abierto",
+                "True"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Candando",
+                "abierto",
+                "True"
               ]
             },
             {
               "type": {
-                "value": "OpacityCapability::OpacityBehavior::SetValue"
+                "value": "CollisionNP"
               },
               "parameters": [
-                "perdiste",
-                "Opacity",
+                "jugador",
+                "Candando",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"MenuInicio\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "Candando",
+                "Animation",
                 "=",
-                "80"
+                "\"cerrado\""
               ]
             },
             {
               "type": {
-                "value": "ShowLayer"
+                "value": "CollisionNP"
               },
               "parameters": [
+                "jugador",
+                "Candando",
                 "",
-                "\"Perdiste\""
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "jugador",
+                "Candando",
+                ""
               ]
             }
           ]
         }
       ],
       "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [
@@ -1347,7 +1643,7 @@
       "isLocked": false,
       "name": "transicion",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
@@ -1379,7 +1675,7 @@
       "isLocked": false,
       "name": "Pausa",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
@@ -1409,9 +1705,9 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "perdiste",
+      "name": "Perdiste",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {

@@ -64,8 +64,8 @@
       "name": "NewText",
       "persistentUuid": "a00263b9-aac4-4d2e-b3f1-61a153d4c3bf",
       "width": 0,
-      "x": 29,
-      "y": 27,
+      "x": 69,
+      "y": 24,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -232,7 +232,7 @@
           "BounceCount": 0
         }
       ],
-      "string": "THE BE SHARPS",
+      "string": "BE + +",
       "font": "Super Milk.ttf",
       "textAlignment": "left",
       "characterSize": 90,

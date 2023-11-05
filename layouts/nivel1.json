@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.546875,
+    "zoomFactor": 0.6244537826600001,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -60,8 +60,8 @@
       "customSize": true,
       "depth": 32,
       "height": 85,
-      "layer": "Pausa",
-      "name": "SmallGreenPlasticRoundSwitch",
+      "layer": "pausa",
+      "name": "switch_sonido",
       "persistentUuid": "950070a5-de94-49fd-ba4b-8c9fd41d5e1c",
       "width": 216,
       "x": 141,
@@ -75,7 +75,7 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Pausa",
+      "layer": "pausa",
       "name": "Pausamusica",
       "persistentUuid": "643f11f8-8150-4b01-9f5c-e36239bbd4f5",
       "width": 0,
@@ -91,7 +91,7 @@
       "customSize": true,
       "depth": 32,
       "height": 95,
-      "layer": "Pausa",
+      "layer": "pausa",
       "name": "SALIR",
       "persistentUuid": "0894d3f5-13a6-4fb6-b304-8a16bca1127e",
       "width": 256,
@@ -107,7 +107,7 @@
       "customSize": true,
       "depth": 1,
       "height": 755,
-      "layer": "Pausa",
+      "layer": "pausa",
       "name": "pausa",
       "persistentUuid": "291d0321-cb67-4a71-a5cc-c1d29bf368d1",
       "width": 1317,
@@ -122,7 +122,7 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Pausa",
+      "layer": "pausa",
       "name": "Pausa",
       "persistentUuid": "4332b6d8-0401-4c56-8036-970952f356ad",
       "width": 0,
@@ -163,8 +163,8 @@
       "name": "recolectable",
       "persistentUuid": "d88834ed-b185-4ad2-aad8-c8796e589ef1",
       "width": 0,
-      "x": 1115,
-      "y": 592,
+      "x": 1096,
+      "y": 565,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -185,8 +185,8 @@
       "name": "recolectable",
       "persistentUuid": "ca80db96-92ab-4f31-bd78-7c66e79741d8",
       "width": 0,
-      "x": 497,
-      "y": 618,
+      "x": 575,
+      "y": 517,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -203,22 +203,7 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
-      "name": "Objetivo",
-      "persistentUuid": "f63ecd5e-938d-43fa-b9ea-3f34aaf513e9",
-      "width": 0,
-      "x": 40,
-      "y": 42,
-      "zOrder": 16,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Pausa",
+      "layer": "pausa",
       "name": "Reiniciar",
       "persistentUuid": "549e9589-149f-43fb-8c85-92878827eaa3",
       "width": 0,
@@ -274,6 +259,102 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 51,
+      "layer": "",
+      "name": "paredes",
+      "persistentUuid": "d9b92238-5fbd-45db-a689-8b77bb3f69dc",
+      "width": 1329,
+      "x": -23,
+      "y": -1,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 300,
+      "layer": "",
+      "name": "paredes",
+      "persistentUuid": "ec846ebe-2b7e-450c-b86d-96ba406b6e33",
+      "width": 50,
+      "x": 1230,
+      "y": -24,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 51,
+      "layer": "",
+      "name": "paredes",
+      "persistentUuid": "36eddf8e-9e3e-44e8-8410-1d068ef90e1a",
+      "width": 1305,
+      "x": -20,
+      "y": 668,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 738,
+      "layer": "",
+      "name": "paredes",
+      "persistentUuid": "b3ac31c8-4208-4bc7-bb52-ef29c5c989e8",
+      "width": 50,
+      "x": 0,
+      "y": -21,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 302,
+      "layer": "",
+      "name": "paredes",
+      "persistentUuid": "4b23be04-f96a-46dd-9780-c93e0e3fb7e3",
+      "width": 50,
+      "x": 1231,
+      "y": 366,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 331,
+      "customSize": true,
+      "depth": 1,
+      "height": 141,
+      "layer": "",
+      "name": "Candando",
+      "persistentUuid": "607feb85-d642-4981-97d7-083f9583d9e9",
+      "width": 142,
+      "x": 1142,
+      "y": 235,
+      "zOrder": 101,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [],
@@ -302,7 +383,7 @@
           },
           "parameters": [
             "",
-            "\"Pausa\""
+            "\"pausa\""
           ]
         },
         {
@@ -451,7 +532,7 @@
               },
               "parameters": [
                 "",
-                "\"Pausa\""
+                "\"pausa\""
               ]
             }
           ]
@@ -486,7 +567,7 @@
               },
               "parameters": [
                 "",
-                "\"Pausa\""
+                "\"pausa\""
               ]
             }
           ]
@@ -499,7 +580,7 @@
                 "value": "SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenChecked"
               },
               "parameters": [
-                "SmallGreenPlasticRoundSwitch",
+                "switch_sonido",
                 ""
               ]
             }
@@ -537,7 +618,7 @@
                 "value": "SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenUnchecked"
               },
               "parameters": [
-                "SmallGreenPlasticRoundSwitch",
+                "switch_sonido",
                 ""
               ]
             }
@@ -983,6 +1064,29 @@
             },
             {
               "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "jugador",
+                "SumaTotal",
+                "=",
+                "jugador.Variable(SumaTotal)+recolectable.Variable(aporte)"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "select_002.ogg",
+                "",
+                "60",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Delete"
               },
               "parameters": [
@@ -992,13 +1096,31 @@
             },
             {
               "type": {
-                "value": "ModVarObjet"
+                "value": "Create"
               },
               "parameters": [
-                "jugador",
-                "SumaTotal",
-                "=",
-                "jugador.Variable(SumaTotal)+recolectable.Variable(aporte)"
+                "",
+                "destroy",
+                "recolectable.BoundingBoxCenterX()-30",
+                "recolectable.BoundingBoxCenterY()-50",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "destroy",
+                ""
               ]
             }
           ]
@@ -1062,11 +1184,90 @@
           "actions": [
             {
               "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Candando",
+                "abierto",
+                "True"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Candando",
+                "abierto",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "jugador",
+                "Candando",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
                 "value": "Scene"
               },
               "parameters": [
                 "",
                 "\"Nivel2\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "Candando",
+                "Animation",
+                "=",
+                "\"cerrado\""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "jugador",
+                "Candando",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "jugador",
+                "Candando",
                 ""
               ]
             }
@@ -1080,6 +1281,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "derrota",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1133,6 +1335,152 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Candado",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Candando",
+                "abierto",
+                "False"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Candando",
+                "abierto",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Candando",
+                "Animation",
+                "=",
+                "\"cerrado\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Candando",
+                "abierto",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "question_003.ogg",
+                "no",
+                "60",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Candando",
+                "Animation",
+                "=",
+                "\"abierto\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Coliciones",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "jugador",
+                "paredes",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
     }
   ],
   "layers": [
@@ -1175,7 +1523,7 @@
       "isLocked": false,
       "name": "transicion",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
@@ -1205,9 +1553,9 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "Pausa",
+      "name": "pausa",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
@@ -1239,7 +1587,7 @@
       "isLocked": false,
       "name": "Perdiste",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
