@@ -1163,6 +1163,34 @@
           "conditions": [
             {
               "type": {
+                "inverted": true,
+                "value": "TopDownMovementBehavior::IsMoving"
+              },
+              "parameters": [
+                "jugador",
+                "TopDownMovement"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "jugador",
+                "Animation",
+                "=",
+                "\"idle\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "KeyPressed"
               },
               "parameters": [
@@ -1179,6 +1207,27 @@
               "parameters": [
                 "jugador",
                 "TopDownMovement"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "jugador",
+                "Animation",
+                "=",
+                "\"walk\""
+              ]
+            },
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "jugador",
+                "Flippable",
+                "yes"
               ]
             }
           ]
@@ -1205,6 +1254,27 @@
                 "jugador",
                 "TopDownMovement"
               ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "jugador",
+                "Animation",
+                "=",
+                "\"walk\""
+              ]
+            },
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "jugador",
+                "Flippable",
+                "no"
+              ]
             }
           ]
         },
@@ -1230,6 +1300,27 @@
                 "jugador",
                 "TopDownMovement"
               ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "jugador",
+                "Animation",
+                "=",
+                "\"walk\""
+              ]
+            },
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "jugador",
+                "Flippable",
+                "no"
+              ]
             }
           ]
         },
@@ -1254,6 +1345,27 @@
               "parameters": [
                 "jugador",
                 "TopDownMovement"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "jugador",
+                "Animation",
+                "=",
+                "\"walk\""
+              ]
+            },
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "jugador",
+                "Flippable",
+                "yes"
               ]
             }
           ]
@@ -1600,7 +1712,7 @@
               },
               "parameters": [
                 "",
-                "drop_004.ogg",
+                "unir.wav",
                 "",
                 "60",
                 "1"
@@ -1904,7 +2016,7 @@
               },
               "parameters": [
                 "",
-                "select_002.ogg",
+                "sumar2.wav",
                 "",
                 "60",
                 "1"
@@ -2081,7 +2193,7 @@
               },
               "parameters": [
                 "",
-                "\"Creditos\""
+                "\"Bosslvl\""
               ]
             }
           ]
@@ -2148,6 +2260,11 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [

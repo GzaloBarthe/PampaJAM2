@@ -12,7 +12,7 @@
     "antialisingEnabledOnMobile": false,
     "folderProject": true,
     "orientation": "landscape",
-    "packageName": "com.example.gamename",
+    "packageName": "com.bplusplus.gamename",
     "pixelsRounding": false,
     "projectUuid": "e75b1442-ac31-43af-a2e5-01fcb37d31bb",
     "scaleMode": "linear",
@@ -20,7 +20,7 @@
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
-    "name": "Pampa02",
+    "name": "B++",
     "description": "",
     "author": "",
     "windowWidth": 1280,
@@ -34,7 +34,7 @@
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
       "backgroundImageResourceName": "",
-      "gdevelopLogoStyle": "light",
+      "gdevelopLogoStyle": "dark-colored",
       "logoAndProgressFadeInDuration": 0.2,
       "logoAndProgressLogoFadeInDelay": 0.2,
       "minDuration": 1.5,
@@ -44,7 +44,7 @@
       "progressBarMinWidth": 40,
       "progressBarWidthPercent": 30,
       "showGDevelopSplash": true,
-      "showProgressBar": true
+      "showProgressBar": false
     },
     "watermark": {
       "placement": "bottom-left",
@@ -715,6 +715,363 @@
         "name": "piso_01.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bola_cam_lado_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bola_cam_lado_01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bola_cam_lado_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bola_cam_lado_02.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bola_cam_lado_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bola_cam_lado_03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bola_cam_lado_04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bola_cam_lado_04.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bola_cam_fte_04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bola_cam_fte_04.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "idle",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walk.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walk2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walk3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walk4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "idle2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "idle3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "sumar.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sumar.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sumar2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sumar2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "unir.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "unir.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "unir2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "unir2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "boss_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "boss_01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "boss_02.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"boss_02.png\",\"extension\":\".png\"}",
+        "name": "boss_02.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "boss_02_b.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "boss_02_b.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "boss_02_a.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "boss_02_a.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "boss_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "boss_03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "luz_0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "luz_0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "luz_0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "luz_0002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "luz_0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "luz_0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "luz_0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "luz_0004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "The Amazing Subworld Stage.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "The Amazing Subworld Stage.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "piso_03.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "piso_03.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile_03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tile_03.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "tile_03",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tile_03.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tile_03.png2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "piso_04.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "piso_04.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bola_nro_no_sombra_si.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "bola_nro_no_sombra_si",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bola_nro_no_sombra_si2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "bola_nro_no_sombra_si2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bola_nro_no_sombra_si3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "bola_nro_no_sombra_si3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bola_nro_no_sombra_si4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "bola_nro_no_sombra_si4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bola_nro_no_sombra_si5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "bola_nro_no_sombra_si5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bola_nro_no_sombra_si.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bola_nro_no_sombra_si.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "minimize_006.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "minimize_006.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -765,16 +1122,17 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "walk",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.09,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "cubo_nro_no_sombra_si.png",
+                  "image": "walk",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -790,19 +1148,176 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 2,
-                        "y": 2
+                        "x": 6,
+                        "y": 1
                       },
                       {
-                        "x": 59,
-                        "y": 2
+                        "x": 54,
+                        "y": 1
                       },
                       {
-                        "x": 59,
+                        "x": 54,
                         "y": 59
                       },
                       {
-                        "x": 2,
+                        "x": 6,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "walk2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 24.5,
+                    "y": 19
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 24.5,
+                    "y": 19
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 1
+                      },
+                      {
+                        "x": 54,
+                        "y": 1
+                      },
+                      {
+                        "x": 54,
+                        "y": 59
+                      },
+                      {
+                        "x": 6,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "walk3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 24.5,
+                    "y": 19
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 24.5,
+                    "y": 19
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 1
+                      },
+                      {
+                        "x": 54,
+                        "y": 1
+                      },
+                      {
+                        "x": 54,
+                        "y": 59
+                      },
+                      {
+                        "x": 6,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "walk4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 24.5,
+                    "y": 19
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 24.5,
+                    "y": 19
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 1
+                      },
+                      {
+                        "x": 54,
+                        "y": 1
+                      },
+                      {
+                        "x": 54,
+                        "y": 59
+                      },
+                      {
+                        "x": 6,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "idle3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 24.5,
+                    "y": 19
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 24.5,
+                    "y": 19
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 1
+                      },
+                      {
+                        "x": 54,
+                        "y": 1
+                      },
+                      {
+                        "x": 54,
+                        "y": 59
+                      },
+                      {
+                        "x": 6,
                         "y": 59
                       }
                     ]
@@ -2127,11 +2642,19 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/bosslvl"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/creditos"
     }
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/navmeshpathfinding"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/sticker"
