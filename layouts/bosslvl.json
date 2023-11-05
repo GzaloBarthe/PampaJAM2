@@ -339,7 +339,7 @@
       "width": 0,
       "x": 120,
       "y": 592,
-      "zOrder": 102,
+      "zOrder": 150,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -658,165 +658,11 @@
       "persistentUuid": "7397aa86-996a-46bc-a086-115a9ad13061",
       "width": 49,
       "x": 604,
-      "y": 570,
+      "y": 552,
       "zOrder": 101,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "recolectable",
-      "persistentUuid": "f2a2d851-f8f3-4eb1-aae1-18096cd3ec65",
-      "width": 0,
-      "x": 123,
-      "y": 84,
-      "zOrder": 1001,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "aporte",
-          "type": "number",
-          "value": 5
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "recolectable",
-      "persistentUuid": "3b5110de-a88a-4fca-a503-74e3dcd63d8d",
-      "width": 0,
-      "x": 869,
-      "y": 83,
-      "zOrder": 1004,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "aporte",
-          "type": "number",
-          "value": 5
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "recolectable",
-      "persistentUuid": "5a2eb601-febb-4127-a134-eefcd4ba74ce",
-      "width": 0,
-      "x": 519,
-      "y": 239,
-      "zOrder": 1005,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "aporte",
-          "type": "number",
-          "value": 5
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "recolectable",
-      "persistentUuid": "e7b91c4a-a1d9-41d3-86db-34e02e2f489b",
-      "width": 0,
-      "x": 623,
-      "y": 455,
-      "zOrder": 1006,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "aporte",
-          "type": "number",
-          "value": 5
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "recolectable",
-      "persistentUuid": "c7877857-2705-4342-b0fd-698fd8d38910",
-      "width": 0,
-      "x": 1174,
-      "y": 379,
-      "zOrder": 1007,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "aporte",
-          "type": "number",
-          "value": 5
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "recolectable",
-      "persistentUuid": "9d32c67c-c899-430f-9773-c3c4ec28c862",
-      "width": 0,
-      "x": 377,
-      "y": 83,
-      "zOrder": 1008,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "aporte",
-          "type": "number",
-          "value": 5
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "recolectable",
-      "persistentUuid": "87109db0-c66b-455e-871a-e11ecb2ffd9d",
-      "width": 0,
-      "x": 255,
-      "y": 458,
-      "zOrder": 1009,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "aporte",
-          "type": "number",
-          "value": 5
-        }
-      ]
     },
     {
       "angle": 0,
@@ -879,28 +725,6 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "recolectable",
-      "persistentUuid": "eef22e49-bc55-419d-8268-72c7ac3eb6a0",
-      "width": 0,
-      "x": 871,
-      "y": 317,
-      "zOrder": 1014,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "aporte",
-          "type": "number",
-          "value": 5
-        }
-      ]
-    },
-    {
       "angle": 90,
       "customSize": true,
       "depth": 1,
@@ -958,7 +782,7 @@
       "width": 0,
       "x": 1192,
       "y": 571,
-      "zOrder": 1016,
+      "zOrder": 140,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -973,7 +797,7 @@
       "width": 0,
       "x": 1166,
       "y": 628,
-      "zOrder": 1017,
+      "zOrder": 140,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -988,7 +812,7 @@
       "width": 0,
       "x": 1031,
       "y": 634,
-      "zOrder": 1018,
+      "zOrder": 140,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1003,7 +827,127 @@
       "width": 0,
       "x": 1099,
       "y": 620,
-      "zOrder": 1019,
+      "zOrder": 140,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "recoboss",
+      "persistentUuid": "76f6cd59-112a-4c1b-8b7f-e888f846f361",
+      "width": 0,
+      "x": 617,
+      "y": 438,
+      "zOrder": 1020,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "recoboss",
+      "persistentUuid": "887843ed-369d-4604-97ba-44e98b3fdc1d",
+      "width": 0,
+      "x": 849,
+      "y": 300,
+      "zOrder": 1021,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "recoboss",
+      "persistentUuid": "c0cd532c-fec8-456f-9552-0aabf5a4702a",
+      "width": 0,
+      "x": 1152,
+      "y": 361,
+      "zOrder": 1022,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "recoboss",
+      "persistentUuid": "2fe7d5e3-e6e9-4012-a771-51bb2b2bfaf2",
+      "width": 0,
+      "x": 847,
+      "y": 64,
+      "zOrder": 1023,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "recoboss",
+      "persistentUuid": "4ee8a10e-c56d-47c2-b31d-c9de69334d50",
+      "width": 0,
+      "x": 497,
+      "y": 221,
+      "zOrder": 1024,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "recoboss",
+      "persistentUuid": "a674523d-dd80-4126-86b7-36cd5a7d9fb1",
+      "width": 0,
+      "x": 356,
+      "y": 63,
+      "zOrder": 1025,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "recoboss",
+      "persistentUuid": "3275a141-98bb-4bf9-b0b8-2bc6723d4f05",
+      "width": 0,
+      "x": 110,
+      "y": 68,
+      "zOrder": 1026,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "recoboss",
+      "persistentUuid": "1bc1f230-bbca-4938-937c-51fe6a74033e",
+      "width": 0,
+      "x": 234,
+      "y": 438,
+      "zOrder": 1027,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1483,7 +1427,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "paredesboss",
-      "texture": "tile_03.png2",
+      "texture": "tile_04.png2",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -1518,6 +1462,12 @@
           "name": "resta",
           "type": "number",
           "value": 5
+        },
+        {
+          "folded": true,
+          "name": "contadorenemy",
+          "type": "number",
+          "value": 1
         }
       ],
       "effects": [],
@@ -1534,6 +1484,8 @@
           "ExtraBorder": 0
         },
         {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -1543,9 +1495,7 @@
           "ignoreDefaultControls": true,
           "maxSpeed": 200,
           "movementAngleOffset": 0,
-          "name": "TopDownMovement",
           "rotateObject": false,
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "viewpoint": "TopDown"
         }
       ],
@@ -1792,6 +1742,74 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "recoboss",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "aporteboss",
+          "type": "number",
+          "value": 5
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "bola_nro_no_sombra_si",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bola_nro_no_sombra_si.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 3
+                      },
+                      {
+                        "x": 58,
+                        "y": 3
+                      },
+                      {
+                        "x": 58,
+                        "y": 58
+                      },
+                      {
+                        "x": 2,
+                        "y": 58
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1814,6 +1832,9 @@
       },
       {
         "objectName": "enemigo"
+      },
+      {
+        "objectName": "recoboss"
       }
     ]
   },
@@ -1850,6 +1871,24 @@
             "",
             "The Amazing Subworld Stage.wav"
           ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"bosstimer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"recotimer\""
+          ]
         }
       ]
     },
@@ -1872,7 +1911,7 @@
             "",
             "The Amazing Subworld Stage.wav",
             "",
-            "60",
+            "35",
             "1"
           ]
         }
@@ -2353,6 +2392,30 @@
                 "",
                 "a"
               ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "jugador",
+                "Animation",
+                "=",
+                "\"hit\""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "jugador",
+                "Animation",
+                "=",
+                "\"happy\""
+              ]
             }
           ],
           "actions": [
@@ -2398,6 +2461,30 @@
               "parameters": [
                 "",
                 "d"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "jugador",
+                "Animation",
+                "=",
+                "\"happy\""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "jugador",
+                "Animation",
+                "=",
+                "\"hit\""
               ]
             }
           ],
@@ -2445,6 +2532,30 @@
                 "",
                 "s"
               ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "jugador",
+                "Animation",
+                "=",
+                "\"happy\""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "jugador",
+                "Animation",
+                "=",
+                "\"hit\""
+              ]
             }
           ],
           "actions": [
@@ -2490,6 +2601,30 @@
               "parameters": [
                 "",
                 "w"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "jugador",
+                "Animation",
+                "=",
+                "\"happy\""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "jugador",
+                "Animation",
+                "=",
+                "\"hit\""
               ]
             }
           ],
@@ -2609,6 +2744,7 @@
           ],
           "events": [
             {
+              "disabled": true,
               "type": "BuiltinCommonInstructions::ForEach",
               "object": "recolectable",
               "conditions": [],
@@ -2638,6 +2774,7 @@
               ]
             },
             {
+              "disabled": true,
               "type": "BuiltinCommonInstructions::ForEach",
               "object": "sticky",
               "conditions": [],
@@ -3099,7 +3236,7 @@
               },
               "parameters": [
                 "jugador",
-                "recolectable",
+                "recoboss",
                 "",
                 "",
                 ""
@@ -3115,7 +3252,7 @@
                 "jugador",
                 "SumaTotal",
                 "=",
-                "jugador.Variable(SumaTotal)+recolectable.Variable(aporte)"
+                "jugador.Variable(SumaTotal)+recoboss.Variable(aporteboss)"
               ]
             },
             {
@@ -3135,7 +3272,7 @@
                 "value": "Delete"
               },
               "parameters": [
-                "recolectable",
+                "recoboss",
                 ""
               ]
             },
@@ -3171,6 +3308,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3409,17 +3547,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "name": "Respawn Enemigos/Boss",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [],
-      "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
       "folded": true,
       "name": "Enemigo",
       "source": "",
@@ -3467,6 +3594,23 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Flash::Flash::IsFlashing"
+              },
+              "parameters": [
+                "jugador",
+                "Flash",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -3500,6 +3644,64 @@
               "parameters": [
                 "enemigo",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Flash::Flash::Flash"
+              },
+              "parameters": [
+                "jugador",
+                "Flash",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::IgnoreDefaultControls"
+              },
+              "parameters": [
+                "jugador",
+                "TopDownMovement",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceVers"
+              },
+              "parameters": [
+                "jugador",
+                "enemigo",
+                "-150",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "jugador"
+              ]
+            },
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::IgnoreDefaultControls"
+              },
+              "parameters": [
+                "jugador",
+                "TopDownMovement",
+                "no"
               ]
             }
           ]
@@ -3672,6 +3874,164 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Boss/Respawn enemigos",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "puertaIntermedia",
+                "abierto",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"bosstimer\"",
+                ">=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "enemigo",
+                "RandomInRange(300,935)",
+                "RandomInRange(65,665)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Boss",
+                "Animation",
+                "=",
+                "\"summon\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Boss",
+                "Animation",
+                "=",
+                "\"Idle\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"bosstimer\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "puertaIntermedia",
+                "abierto",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"recotimer\"",
+                ">=",
+                "8"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "recoboss",
+                "RandomInRange(130,866)",
+                "RandomInRange(100,600)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"recotimer\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
+      "parameters": []
     }
   ],
   "layers": [
@@ -3823,6 +4183,10 @@
     {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flash",
+      "type": "Flash::Flash"
     },
     {
       "name": "Flippable",

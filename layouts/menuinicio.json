@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.546875,
+    "zoomFactor": 0.39251611754882226,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -55,6 +55,36 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "colisionlogo",
+      "persistentUuid": "436be30a-13e1-4fc1-9b75-05e5e16ad4fb",
+      "width": 0,
+      "x": 420,
+      "y": 223,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Logo",
+      "persistentUuid": "bb59233a-1622-4ecd-a818-4f51880a40bb",
+      "width": 0,
+      "x": 263,
+      "y": -385,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -79,7 +109,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "cover.jpg",
+                  "image": "cover_1280x0720_tit_no.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -99,16 +129,16 @@
                         "y": 0
                       },
                       {
-                        "x": 640,
+                        "x": 1280,
                         "y": 0
                       },
                       {
-                        "x": 640,
-                        "y": 360
+                        "x": 1280,
+                        "y": 720
                       },
                       {
                         "x": 0,
-                        "y": 360
+                        "y": 720
                       }
                     ]
                   ]
@@ -227,6 +257,127 @@
         "g": 204,
         "r": 255
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "colisionlogo",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "colisionlogo",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "colisionlogo",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Logo",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "cover_1280x0720_titulo.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 491,
+                        "y": 10
+                      },
+                      {
+                        "x": 494,
+                        "y": 217
+                      },
+                      {
+                        "x": 13,
+                        "y": 220
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -240,6 +391,12 @@
       },
       {
         "objectName": "NewText"
+      },
+      {
+        "objectName": "colisionlogo"
+      },
+      {
+        "objectName": "Logo"
       }
     ]
   },
@@ -265,6 +422,17 @@
             "",
             "United Now (Canción Principal).ogg"
           ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "colisionlogo",
+            "Opacity",
+            "=",
+            "0"
+          ]
         }
       ]
     },
@@ -289,6 +457,70 @@
             "",
             "50",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "open_004.ogg",
+            "",
+            "50",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "AddForceXY"
+          },
+          "parameters": [
+            "Logo",
+            "0",
+            "20",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Logo",
+            "colisionlogo",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Arreter"
+          },
+          "parameters": [
+            "Logo"
           ]
         }
       ]
@@ -441,6 +673,10 @@
     {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flash",
+      "type": "Flash::Flash"
     },
     {
       "name": "Flippable",
