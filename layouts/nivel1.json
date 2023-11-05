@@ -5,7 +5,7 @@
   "name": "Nivel1",
   "r": 209,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 209,
   "uiSettings": {
@@ -302,7 +302,7 @@
       "persistentUuid": "36eddf8e-9e3e-44e8-8410-1d068ef90e1a",
       "width": 1305,
       "x": -20,
-      "y": 668,
+      "y": 673,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -328,14 +328,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 302,
+      "height": 355,
       "layer": "",
       "name": "paredes",
       "persistentUuid": "4b23be04-f96a-46dd-9780-c93e0e3fb7e3",
       "width": 50,
       "x": 1231,
       "y": 366,
-      "zOrder": 22,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -352,6 +352,22 @@
       "x": 1142,
       "y": 235,
       "zOrder": 101,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 733,
+      "layer": "",
+      "name": "piso1",
+      "persistentUuid": "ee5954a3-562a-44d3-a546-af95ab5243bb",
+      "width": 1302,
+      "x": -18,
+      "y": -7,
+      "zOrder": -5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1523,7 +1539,7 @@
       "isLocked": false,
       "name": "transicion",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
@@ -1555,7 +1571,7 @@
       "isLocked": false,
       "name": "pausa",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
@@ -1587,7 +1603,7 @@
       "isLocked": false,
       "name": "Perdiste",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
@@ -1632,6 +1648,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Sticker",
+      "type": "Sticker::Sticker"
     },
     {
       "name": "Text",

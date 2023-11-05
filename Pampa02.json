@@ -579,6 +579,142 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "file": "United Now (Canción Principal).ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "United Now (Canción Principal).ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "candado_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "candado_03.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "candado_04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "candado_04.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "snap_012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "snap_012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "snap_013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "snap_013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "snap_014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "snap_014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "snap_015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "snap_015.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "creditos.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "creditos.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "cover.jpg",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"cover.jpg\",\"extension\":\".png\"}",
+        "name": "cover.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "boton_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "boton_01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "boton_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "boton_02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "boton_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "boton_03.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/boton_03.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "boton_03.png2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "piso_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "piso_02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "piso_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "piso_01.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -599,6 +735,12 @@
         },
         {
           "name": "Objetivo",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "Objetivo2",
           "type": "number",
           "value": 0
         }
@@ -1693,6 +1835,197 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "unir",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "snap_011",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "snap_011",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 1
+                      },
+                      {
+                        "x": 54,
+                        "y": 1
+                      },
+                      {
+                        "x": 54,
+                        "y": 55
+                      },
+                      {
+                        "x": 3,
+                        "y": 55
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "snap_012",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 1
+                      },
+                      {
+                        "x": 54,
+                        "y": 1
+                      },
+                      {
+                        "x": 54,
+                        "y": 55
+                      },
+                      {
+                        "x": 3,
+                        "y": 55
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "snap_013",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 1
+                      },
+                      {
+                        "x": 54,
+                        "y": 1
+                      },
+                      {
+                        "x": 54,
+                        "y": 55
+                      },
+                      {
+                        "x": 3,
+                        "y": 55
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "snap_014",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 1
+                      },
+                      {
+                        "x": 54,
+                        "y": 1
+                      },
+                      {
+                        "x": 54,
+                        "y": 55
+                      },
+                      {
+                        "x": 3,
+                        "y": 55
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "piso1",
+      "texture": "piso_02.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "piso2",
+      "texture": "piso_01.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -1754,6 +2087,15 @@
       },
       {
         "objectName": "sticky3"
+      },
+      {
+        "objectName": "unir"
+      },
+      {
+        "objectName": "piso1"
+      },
+      {
+        "objectName": "piso2"
       }
     ]
   },
@@ -1782,6 +2124,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/nivel3"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/creditos"
     }
   ],
   "externalEvents": [],

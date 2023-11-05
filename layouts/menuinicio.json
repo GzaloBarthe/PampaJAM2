@@ -28,45 +28,30 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1024,
+      "height": 720,
       "layer": "",
       "name": "fondo",
       "persistentUuid": "ddd60f70-62d6-41a5-8e23-6801aa36b161",
       "width": 1280,
       "x": 0,
-      "y": -236,
+      "y": 0,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 357,
       "customSize": true,
       "depth": 32,
-      "height": 128,
+      "height": 210,
       "layer": "",
       "name": "YellowButton",
       "persistentUuid": "cb352851-7589-47b0-b700-47394c8ca210",
-      "width": 340,
-      "x": 866,
-      "y": 532,
+      "width": 200,
+      "x": 1042,
+      "y": 485,
       "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "NewText",
-      "persistentUuid": "a00263b9-aac4-4d2e-b3f1-61a153d4c3bf",
-      "width": 0,
-      "x": 69,
-      "y": 24,
-      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -84,16 +69,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "cover",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "_76225909-9624-4c3e-9a0f-ef1b3390c059.jpg",
+                  "image": "cover.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -113,16 +99,16 @@
                         "y": 0
                       },
                       {
-                        "x": 1024,
+                        "x": 640,
                         "y": 0
                       },
                       {
-                        "x": 1024,
-                        "y": 1024
+                        "x": 640,
+                        "y": 360
                       },
                       {
                         "x": 0,
-                        "y": 1024
+                        "y": 360
                       }
                     ]
                   ]
@@ -144,7 +130,7 @@
         "LeftPadding": 16,
         "RightPadding": 16,
         "PressedLabelOffsetY": 10,
-        "BottomPadding": 32,
+        "BottomPadding": 40,
         "TopPadding": 16,
         "HoveredFadeOutDuration": 0.25
       },
@@ -154,7 +140,7 @@
           "height": 106,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "Yellow Button_Hovered.png",
+          "texture": "boton_03.png2",
           "tiled": true,
           "topMargin": 16,
           "width": 256
@@ -164,24 +150,24 @@
           "height": 106,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "Yellow Button_Idle.png",
+          "texture": "boton_01.png",
           "tiled": true,
           "topMargin": 16,
           "width": 256
         },
         "Label": {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "smoothed": true,
           "underlined": false,
           "string": "PLAY",
-          "font": "",
+          "font": "Super Milk.ttf",
           "textAlignment": "center",
-          "characterSize": 65,
+          "characterSize": 55,
           "color": {
-            "b": 42,
-            "g": 87,
-            "r": 139
+            "b": 0,
+            "g": 0,
+            "r": 0
           }
         },
         "Pressed": {
@@ -189,7 +175,7 @@
           "height": 106,
           "leftMargin": 16,
           "rightMargin": 16,
-          "texture": "Yellow Button_Pressed.png",
+          "texture": "boton_02.png",
           "tiled": true,
           "topMargin": 32,
           "width": 256
@@ -258,6 +244,55 @@
     ]
   },
   "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PreloadMusic"
+          },
+          "parameters": [
+            "",
+            "United Now (Canción Principal).ogg"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "United Now (Canción Principal).ogg",
+            "",
+            "50",
+            "1"
+          ]
+        }
+      ]
+    },
     {
       "colorB": 228,
       "colorG": 176,
@@ -422,6 +457,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Sticker",
+      "type": "Sticker::Sticker"
     },
     {
       "name": "Text",

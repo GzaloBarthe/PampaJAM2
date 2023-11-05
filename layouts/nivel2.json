@@ -5,7 +5,7 @@
   "name": "Nivel2",
   "r": 209,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 209,
   "uiSettings": {
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7130377630690402,
+    "zoomFactor": 0.7619362677197606,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -404,7 +404,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 341,
       "customSize": true,
       "depth": 1,
       "height": 159,
@@ -412,192 +412,33 @@
       "name": "Candando",
       "persistentUuid": "2c3c8df3-38c8-448c-b061-a03307bc33b9",
       "width": 158,
-      "x": 1131,
-      "y": 82,
-      "zOrder": 20,
+      "x": 1150,
+      "y": 81,
+      "zOrder": 50,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 737,
+      "layer": "",
+      "name": "piso2",
+      "persistentUuid": "e270b9ce-5fdd-4f10-905f-f3e301d7e44f",
+      "width": 1299,
+      "x": -9,
+      "y": -12,
+      "zOrder": -5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     }
   ],
-  "objects": [
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "unir",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "snap_011",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.1,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "snap_011",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 1
-                      },
-                      {
-                        "x": 54,
-                        "y": 1
-                      },
-                      {
-                        "x": 54,
-                        "y": 55
-                      },
-                      {
-                        "x": 3,
-                        "y": 55
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "snap_012",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 1
-                      },
-                      {
-                        "x": 54,
-                        "y": 1
-                      },
-                      {
-                        "x": 54,
-                        "y": 55
-                      },
-                      {
-                        "x": 3,
-                        "y": 55
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "snap_013",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 1
-                      },
-                      {
-                        "x": 54,
-                        "y": 1
-                      },
-                      {
-                        "x": 54,
-                        "y": 55
-                      },
-                      {
-                        "x": 3,
-                        "y": 55
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "snap_014",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 1
-                      },
-                      {
-                        "x": 54,
-                        "y": 1
-                      },
-                      {
-                        "x": 54,
-                        "y": 55
-                      },
-                      {
-                        "x": 3,
-                        "y": 55
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ],
+  "objects": [],
   "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "unir"
-      }
-    ]
+    "folderName": "__ROOT"
   },
   "events": [
     {
@@ -1222,7 +1063,6 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1247,6 +1087,29 @@
           "actions": [
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "drop_004.ogg",
+                "",
+                "60",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "jugador",
+                "SumaTotal",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Delete"
               },
               "parameters": [
@@ -1256,14 +1119,31 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "Create"
               },
               "parameters": [
                 "",
-                "drop_004.ogg",
-                "",
-                "60",
-                "1"
+                "unir",
+                "sticky.BoundingBoxCenterX()-30",
+                "sticky.BoundingBoxCenterY()-50",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.25"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "unir",
+                ""
               ]
             }
           ],
@@ -1300,17 +1180,6 @@
                     "Sticker",
                     "jugador",
                     ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "jugador",
-                    "SumaTotal",
-                    "+",
-                    "1"
                   ]
                 }
               ]
@@ -1537,7 +1406,7 @@
               },
               "parameters": [
                 "",
-                "\"MenuInicio\"",
+                "\"Nivel3\"",
                 ""
               ]
             }
@@ -1643,7 +1512,7 @@
       "isLocked": false,
       "name": "transicion",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
@@ -1675,7 +1544,7 @@
       "isLocked": false,
       "name": "Pausa",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
@@ -1707,7 +1576,7 @@
       "isLocked": false,
       "name": "Perdiste",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
